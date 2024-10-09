@@ -48,7 +48,7 @@ loadScripts(document, 'script');</script>
 <div class="header">
 <h1>Index</h1>
 </div>
-<a href="#I:A">A</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a>
+<a href="#I:A">A</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a>
 <h2 class="title" id="I:A">A</h2>
 <dl class="index">
 <dt><a href="com/brightdata/AmazonUpdatePlugin.html" class="type-name-link" title="class in com.brightdata">AmazonUpdatePlugin</a> - Class in <a href="com/brightdata/package-summary.html">com.brightdata</a></dt>
@@ -72,6 +72,10 @@ loadScripts(document, 'script');</script>
 <dl class="index">
 <dt><a href="com/brightdata/package-summary.html">com.brightdata</a> - package com.brightdata</dt>
 <dd>&nbsp;</dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#commitEdit()" class="member-name-link">commitEdit()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Commit the current edit to finalize the changes in the Amazon Appstore.</div>
+</dd>
 </dl>
 <h2 class="title" id="I:D">D</h2>
 <dl class="index">
@@ -82,6 +86,10 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:G">G</h2>
 <dl class="index">
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#getAccessToken()" class="member-name-link">getAccessToken()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Fetches the access token for Amazon API authentication.</div>
+</dd>
 <dt><a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html#getAccessTokenExpire()" class="member-name-link">getAccessTokenExpire()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html" title="class in com.brightdata">AmazonUpdatePlugin.AmazonUpdatePluginExtension</a></dt>
 <dd>
 <div class="block">Get access token expiration time in seconds.</div>
@@ -106,10 +114,20 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Get path to the config file with preset values.</div>
 </dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#getEdit()" class="member-name-link">getEdit()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Retrieve the current edit or create a new one if none exists.</div>
+</dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#getFileId()" class="member-name-link">getFileId()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Retrieve the file ID of the APK from the edit.</div>
+</dd>
 <dt><a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html#getLanguage()" class="member-name-link">getLanguage()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html" title="class in com.brightdata">AmazonUpdatePlugin.AmazonUpdatePluginExtension</a></dt>
 <dd>
 <div class="block">Get language for the APK listing.</div>
 </dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#getListing()" class="member-name-link">getListing()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html#getMaxApiRetries()" class="member-name-link">getMaxApiRetries()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html" title="class in com.brightdata">AmazonUpdatePlugin.AmazonUpdatePluginExtension</a></dt>
 <dd>
 <div class="block">Get maximum number of retries for API requests.</div>
@@ -121,6 +139,14 @@ loadScripts(document, 'script');</script>
 <dt><a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html#getRequestDebug()" class="member-name-link">getRequestDebug()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.AmazonUpdatePluginExtension.html" title="class in com.brightdata">AmazonUpdatePlugin.AmazonUpdatePluginExtension</a></dt>
 <dd>
 <div class="block">Get debug flag for API requests.</div>
+</dd>
+</dl>
+<h2 class="title" id="I:P">P</h2>
+<dl class="index">
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#parseUpdateParams()" class="member-name-link">parseUpdateParams()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Parse the update parameters such as APK path, release notes, 
+ and other necessary details for the update.</div>
 </dd>
 </dl>
 <h2 class="title" id="I:R">R</h2>
@@ -172,8 +198,31 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Set debug flag for API requests.</div>
 </dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#setupAmazonUpdatePlugin()" class="member-name-link">setupAmazonUpdatePlugin()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Set up the Amazon update plugin by loading project properties 
+ and configuring tasks.</div>
+</dd>
 </dl>
-<a href="#I:A">A</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a></main>
+<h2 class="title" id="I:U">U</h2>
+<dl class="index">
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#updateListing()" class="member-name-link">updateListing()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Get the app listing details for the current edit.</div>
+</dd>
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#uploadApk()" class="member-name-link">uploadApk()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Upload the APK to the current edit in the Amazon Appstore.</div>
+</dd>
+</dl>
+<h2 class="title" id="I:V">V</h2>
+<dl class="index">
+<dt><a href="com/brightdata/AmazonUpdatePlugin.html#validateEdit()" class="member-name-link">validateEdit()</a> - Method in class com.brightdata.<a href="com/brightdata/AmazonUpdatePlugin.html" title="class in com.brightdata">AmazonUpdatePlugin</a></dt>
+<dd>
+<div class="block">Validate the current edit before committing.</div>
+</dd>
+</dl>
+<a href="#I:A">A</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a></main>
 </div>
 </div>
 </body>

@@ -142,14 +142,64 @@ implements org.gradle.api.Plugin&lt;org.gradle.api.Project&gt;</span></div>
 <div class="block">The main method that applies the plugin to the project.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#deleteApk()" class="member-name-link">deleteApk</a>()</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#commitEdit()" class="member-name-link">commitEdit</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Commit the current edit to finalize the changes in the Amazon Appstore.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#deleteApk()" class="member-name-link">deleteApk</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Delete the APK from the current edit in the Amazon Appstore.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAccessToken()" class="member-name-link">getAccessToken</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Fetches the access token for Amazon API authentication.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getEdit()" class="member-name-link">getEdit</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Retrieve the current edit or create a new one if none exists.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getFileId()" class="member-name-link">getFileId</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Retrieve the file ID of the APK from the edit.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getListing()" class="member-name-link">getListing</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#parseUpdateParams()" class="member-name-link">parseUpdateParams</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Parse the update parameters such as APK path, release notes, 
+ and other necessary details for the update.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#replaceApk()" class="member-name-link">replaceApk</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Replace the APK in the current edit in the Amazon Appstore.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setupAmazonUpdatePlugin()" class="member-name-link">setupAmazonUpdatePlugin</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Set up the Amazon update plugin by loading project properties 
+ and configuring tasks.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#updateListing()" class="member-name-link">updateListing</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Get the app listing details for the current edit.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#uploadApk()" class="member-name-link">uploadApk</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Upload the APK to the current edit in the Amazon Appstore.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#validateEdit()" class="member-name-link">validateEdit</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Validate the current edit before committing.</div>
 </div>
 </div>
 </div>
@@ -197,6 +247,38 @@ implements org.gradle.api.Plugin&lt;org.gradle.api.Project&gt;</span></div>
 </section>
 </li>
 <li>
+<section class="detail" id="setupAmazonUpdatePlugin()">
+<h3>setupAmazonUpdatePlugin</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setupAmazonUpdatePlugin</span>()</div>
+<div class="block">Set up the Amazon update plugin by loading project properties 
+ and configuring tasks.
+ 
+ Configures tasks like uploading APKs and releasing them to Amazon.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="parseUpdateParams()">
+<h3>parseUpdateParams</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">parseUpdateParams</span>()</div>
+<div class="block">Parse the update parameters such as APK path, release notes, 
+ and other necessary details for the update.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getEdit()">
+<h3>getEdit</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">getEdit</span>()</div>
+<div class="block">Retrieve the current edit or create a new one if none exists.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getFileId()">
+<h3>getFileId</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">getFileId</span>()</div>
+<div class="block">Retrieve the file ID of the APK from the edit.</div>
+</section>
+</li>
+<li>
 <section class="detail" id="deleteApk()">
 <h3>deleteApk</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">deleteApk</span>()</div>
@@ -208,6 +290,56 @@ implements org.gradle.api.Plugin&lt;org.gradle.api.Project&gt;</span></div>
 <h3>replaceApk</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">replaceApk</span>()</div>
 <div class="block">Replace the APK in the current edit in the Amazon Appstore.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="uploadApk()">
+<h3>uploadApk</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">uploadApk</span>()</div>
+<div class="block">Upload the APK to the current edit in the Amazon Appstore.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getListing()">
+<h3>getListing</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">getListing</span>()</div>
+</section>
+</li>
+<li>
+<section class="detail" id="updateListing()">
+<h3>updateListing</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateListing</span>()</div>
+<div class="block">Get the app listing details for the current edit.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="validateEdit()">
+<h3>validateEdit</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">validateEdit</span>()</div>
+<div class="block">Validate the current edit before committing.
+ 
+ Prints the validation response to the console.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="commitEdit()">
+<h3>commitEdit</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">commitEdit</span>()</div>
+<div class="block">Commit the current edit to finalize the changes in the Amazon Appstore.
+ 
+ Prints the commit response to the console.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getAccessToken()">
+<h3>getAccessToken</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">getAccessToken</span>()</div>
+<div class="block">Fetches the access token for Amazon API authentication.</div>
+<dl class="notes">
+<dt>Throws:</dt>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/RuntimeException.html" title="class or interface in java.lang" class="external-link">RuntimeException</a></code> - if the request or file operation fails</dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/IOException.html" title="class or interface in java.io" class="external-link">IOException</a></code> - if there is an I/O error during the request</dd>
+</dl>
 </section>
 </li>
 </ul>
